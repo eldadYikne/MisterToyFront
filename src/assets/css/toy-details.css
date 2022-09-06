@@ -1,0 +1,11 @@
+.reviews-details{
+    list-style: none;
+}
+.toy-details{
+    border: solid 1px;
+    max-width: 400px;
+    position: absolute;
+    top: 37px;
+    right: 50%;
+    background-color: var(--color6);
+}

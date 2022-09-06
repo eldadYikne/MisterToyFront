@@ -1,0 +1,48 @@
+
+@import url('./css/toy-list.css');
+@import url('./css/toy-preview.css');
+@import url('./css/toy-details.css');
+
+:root {
+    --color1: #140f07;
+    --color2: #102743;
+    --color3: #086aad;
+    --color4: #1db6ff;
+    --color5: #37fff9;
+    --color6: #cbf5f4;
+}
+*>:not(.full){
+    font-family: cursive;
+}
+.full{
+ 
+}
+.toy-card {
+    border: 1px solid;
+    max-width: 150px;
+}
+.main-header{
+    background-color: var(--color2);
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color:unset;
+}
+.main-header a{
+  line-height: 81px;
+  margin-inline-end: 30px;
+  font-size: 1.2rem;
+}
+.active{
+    color: var(--color5);
+}
+
+button{
+    background-color: #086aad;
+    color: white;
+}
