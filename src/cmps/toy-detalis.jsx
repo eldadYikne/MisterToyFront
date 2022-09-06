@@ -27,6 +27,7 @@ export const ToyDetails = () => {
     return <section className="toy-details">
         <h1>ToyDetails</h1>
         <h1>{toy.name}</h1>
+        <h1>In Stock:{toy.inStock}</h1>
         <h1>reviews</h1>
 
         <h1>{toy.reviews.map(review => {
@@ -34,6 +35,7 @@ export const ToyDetails = () => {
                 <li>Name:{review.name}</li>
                 <li>Review:{review.text}</li>
                 <li>Raet:{review.rate}</li>
+                <hr></hr>
             </ul>
         })}</h1>
         <button onClick={onBack}>back </button>

@@ -43,7 +43,7 @@ export const ToyEdit = (props) => {
             <label htmlFor="inStock">is in Stock:</label>
             <select id="cars" onChange={handleChange} value={toy.inStock} name="inStock">
                 <option value='true'>In stock</option>
-                <option value='flase'>Out of stock</option>
+                <option value='false'>Out of stock</option>
             </select>
             <button>Add </button>
             <button onClick={goBack}> Back</button>

@@ -1,3 +1,30 @@
-.name-toy{
+.name-toy {
     color: var(--color4);
+}
+
+.toy-card {
+    position: relative;
+    border: 1px solid;
+    max-width: 150px;
+    box-shadow: inset 1.5px 1.5px 0 rgb(0 0 0 / 12%), inset 0 -1.5px 0 rgb(0 0 0 / 9%);
+}
+
+.remove-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    text-align: center;
+}
+
+.btn-container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 25px;
+}
+
+.btn-container-card a {
+    cursor: pointer;
 }
