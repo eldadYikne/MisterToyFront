@@ -43,7 +43,7 @@ An app I wrote with React.JS, in which you can add toy, delete, update, see deta
 
 
 ## Toy list
- <img src="img/toy1.png" alt="" width="600" height="300">
+ <img src="src/assets/toy1.png" alt="" width="600" height="300">
  
 
 ## Google-map
@@ -51,7 +51,7 @@ An app I wrote with React.JS, in which you can add toy, delete, update, see deta
 
 used in Google's library to get locations. 
 
-  <img src="img/toy2.png" alt="" width="600" height="300">
+  <img src="src/assets/toy2.png" alt="" width="600" height="300">
 
 
 
